@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mileonair/static/css/main.69a8d2e4.chunk.css",
-    "main.js": "/mileonair/static/js/main.00309bb7.chunk.js",
-    "main.js.map": "/mileonair/static/js/main.00309bb7.chunk.js.map",
+    "main.css": "/mileonair/static/css/main.78cec182.chunk.css",
+    "main.js": "/mileonair/static/js/main.997d3c1c.chunk.js",
+    "main.js.map": "/mileonair/static/js/main.997d3c1c.chunk.js.map",
     "runtime-main.js": "/mileonair/static/js/runtime-main.d8c98d07.js",
     "runtime-main.js.map": "/mileonair/static/js/runtime-main.d8c98d07.js.map",
     "static/js/2.52b798c3.chunk.js": "/mileonair/static/js/2.52b798c3.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/5.418564e3.chunk.js": "/mileonair/static/js/5.418564e3.chunk.js",
     "static/js/5.418564e3.chunk.js.map": "/mileonair/static/js/5.418564e3.chunk.js.map",
     "index.html": "/mileonair/index.html",
-    "static/css/main.69a8d2e4.chunk.css.map": "/mileonair/static/css/main.69a8d2e4.chunk.css.map",
+    "static/css/main.78cec182.chunk.css.map": "/mileonair/static/css/main.78cec182.chunk.css.map",
     "static/js/2.52b798c3.chunk.js.LICENSE.txt": "/mileonair/static/js/2.52b798c3.chunk.js.LICENSE.txt",
     "static/js/3.d82294a4.chunk.js.LICENSE.txt": "/mileonair/static/js/3.d82294a4.chunk.js.LICENSE.txt",
     "static/js/4.61990a68.chunk.js.LICENSE.txt": "/mileonair/static/js/4.61990a68.chunk.js.LICENSE.txt",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.d8c98d07.js",
     "static/js/3.d82294a4.chunk.js",
-    "static/css/main.69a8d2e4.chunk.css",
-    "static/js/main.00309bb7.chunk.js"
+    "static/css/main.78cec182.chunk.css",
+    "static/js/main.997d3c1c.chunk.js"
   ]
 }
