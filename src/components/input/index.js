@@ -5,7 +5,7 @@ const Input = ({
   value, onChange, placeholder,
   type = 'text', name, options,
   valid, text, disabled, width = 316,
-  setIsValid,
+  setIsValid, reset,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [datePlaceholder, setDatePlaceholder] = useState(false);
@@ -77,15 +77,16 @@ const Input = ({
   };
 
   const handleBlur = () => {
-    if (type === 'date' && !value) {
+    if (type === 'date' && value === '') {
       setDatePlaceholder(false);
     }
   };
 
-  if (type === 'all') {
-    newType = 'text';
-  }
-  if (type === 'date') {
+  useEffect(() => {
+    handleBlur();
+  }, [reset]);
+
+  if (type === 'all' || type === 'date') {
     newType = 'text';
   }
 
@@ -122,7 +123,7 @@ const Input = ({
             <input
               name={name}
               disabled={disabled}
-              className={valid ? 'input input_alert' : 'input'}
+              className={valid ? 'input input_alert' : 'input has-value'}
               value={value}
               onFocus={handleFocus}
               onChange={handleInput}

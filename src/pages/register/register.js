@@ -25,6 +25,7 @@ const Register = () => {
   const [promo, setPromo] = useState('');
   const [isModal, setIsModal] = useState(false);
   const [promoSent, setPromoSent] = useState(false);
+  const [reset, setReset] = useState(false);
 
   useEffect(() => {
     if (!cancelBtn) {
@@ -50,6 +51,7 @@ const Register = () => {
     setData(initData);
     setIsValid(false);
     setPromo(null);
+    setReset((oldValue) => !oldValue);
   };
 
   const handlePromo = () => {
@@ -120,6 +122,7 @@ const Register = () => {
               placeholder="ХХ.ХХ.ХХХХ"
               value={data.contractDate}
               onChange={setData}
+              reset={reset}
             />
           </div>
           {promo
