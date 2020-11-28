@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mileonair/static/css/main.d6864f9f.chunk.css",
-    "main.js": "/mileonair/static/js/main.726ac30b.chunk.js",
-    "main.js.map": "/mileonair/static/js/main.726ac30b.chunk.js.map",
+    "main.js": "/mileonair/static/js/main.edd35024.chunk.js",
+    "main.js.map": "/mileonair/static/js/main.edd35024.chunk.js.map",
     "runtime-main.js": "/mileonair/static/js/runtime-main.d8c98d07.js",
     "runtime-main.js.map": "/mileonair/static/js/runtime-main.d8c98d07.js.map",
     "static/js/2.52b798c3.chunk.js": "/mileonair/static/js/2.52b798c3.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.d8c98d07.js",
     "static/js/3.bf033666.chunk.js",
     "static/css/main.d6864f9f.chunk.css",
-    "static/js/main.726ac30b.chunk.js"
+    "static/js/main.edd35024.chunk.js"
   ]
 }
