@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  background: #F6F8FB;
+}
+
+.mainContent {
+  width: 100%;
+  padding: 0 36px;
+}
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 84px;
+  font-size: 21px;
+  color: #3D4048;
+  
+}

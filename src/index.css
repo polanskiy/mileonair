@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/fonts/Lato-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  list-style-type: none;
+}
+
+a {
+  color: #3D4048;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pageTitle {
+  font-size: 40px;
+  color: #3D4048;
+  margin-bottom: 18px;
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+
+*::-webkit-scrollbar {
+        -webkit-appearance: none;
+}
+    
+*::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+    
+*::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
+    
+*::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid white; /* should match background, can't be transparent */
+        background-color: rgba(0, 0, 0, .5);
+}
+    
+*::-webkit-scrollbar-track { 
+        background-color: #fff; 
+        border-radius: 8px; 
+}

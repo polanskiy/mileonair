@@ -1,0 +1,59 @@
+.input {
+  width: 100%;
+  height: 47px;
+  border-radius: 15px;
+  border: 1px solid #DDE2E5;
+  padding: 12px 24px;
+  font-size: 18px;
+  outline: 0;
+}
+
+.input_alert {
+  border-color: #F03D3E;
+}
+
+.register__label_alert:after {
+  content: '';
+  background: url(../../images/alert.svg) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 23px;
+}
+
+.register__label_alert > input:focused {
+  background: #000;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.input:focus {
+  border: 1px solid #3D4048;
+}
+
+.defaultOption {
+  color: #C4C4C4;
+}
+
+.listOptions {
+  position: absolute;
+  z-index: 9;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid #DDE2E5;
+  width: 100%;
+  cursor: pointer;
+}
+
+.listOptions li {
+  color: #3D4048;
+  height: 43px;
+  padding: 12px;
+}
+
+.listOptions li:hover {
+  background: #f3f3f3;
+}

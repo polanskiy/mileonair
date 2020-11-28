@@ -1,0 +1,81 @@
+.register, .user-info {
+  height: calc(100% - 84px);
+  display: flex;
+  flex-flow: column;
+}
+
+.register__content, .user-info__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  flex: 1 1 auto;
+  padding: 40px 16px 25px 30px;  
+}
+
+.register__label {
+  position: relative;
+  max-width: 316px;
+  width: 100%;
+}
+
+.register__label span {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  color: #949BAE;
+  letter-spacing: .2px;
+  font-weight: 300;
+}
+
+.register__input-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.register__input-box label:not(:last-child) {
+  margin-right: 20px;
+}
+
+::placeholder {
+  color: #C4C4C4;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  height: 48px;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.btns-box {
+  display: flex;
+  justify-content: center;
+}
+
+.button_accept {
+  background: #FF3956;
+  margin-right: 10px;
+}
+
+.button_cancel {
+  background: #949BAE;
+}
+
+.button_disabled {
+  opacity: .5;
+}

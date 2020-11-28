@@ -1,0 +1,85 @@
+.user-info__table {
+  position: relative;
+  border: 1px solid #B8BCC6;
+  border-radius: 15px;
+  width: 100%;
+  padding: 18px 15px;
+  transition: .5s;
+ background: #fff;
+}
+
+.user-info__table-box {
+  transition: .5s;
+}
+
+.user-info__content {
+  flex-direction: row;
+}
+
+.user-info__fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  max-width: 355px;
+  width: 100%;
+  overflow: hidden;
+  transition: .5s;
+  max-height: 553px;
+  height: 100%;
+  padding-top: 28px;
+}
+
+.MuiPaper-elevation2 {
+  box-shadow: none!important;
+}
+
+.MuiToolbar-regular {
+  min-height: 0px!important;
+}
+
+.user-info__name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-info__control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.user-info__description-table tr td{
+  padding-top: 10px;
+}
+
+.user-info__description-table_expanded tr {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+}
+
+.user-info__description-table tr td:first-child {
+  padding-right: 50px;
+}
+
+.user-info__description-table tr:nth-child(2n+1) {
+    clear: left;
+    padding-right: 80px;
+}
+
+.user-info__table-title {
+  margin: 30px 0 10px;
+  font-size: 21px;
+}

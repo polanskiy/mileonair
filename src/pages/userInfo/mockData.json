@@ -1,0 +1,61 @@
+{
+  "name": "Лазарев Сергей Викторович",
+  "phone": "+7 925 712 0627",
+  "cardType": "Альфа-банк/Signature",
+  "contractNumber": "123852-6541/R",
+  "passNumber": 4,
+  "contractEnd": "12.09.2021",
+  "status": true,
+  "uid": "3435A0u7",
+  "rows": [
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "АО “Альфа-банк”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "ОАО “Тинькофф банк”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "ПАО “Сбербанк”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "ОАО “ВТБ”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "АО “Альфа-банк”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "АО “Альфа-банк”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    },
+    {
+      "transaction": "Q34645Jl900-8564",
+      "bank": "ОАО “ВТБ”",
+      "passDate": "15/09/2020",
+      "transactionTime": "12:00:00",
+      "passPlace": "SVO, БЗ “Москва-1”"
+    }
+  ]
+}
