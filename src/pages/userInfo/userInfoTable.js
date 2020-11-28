@@ -115,7 +115,7 @@ const UserInfoTable = ({
          </table>
        </div>
        <p className="user-info__table-title">Транзакции</p>
-       <div className="user-info__table-box" style={{ maxHeight: fullTable ? 260 : 180, overflowY: 'hidden' }}>
+       <div className="user-info__table-box" style={{ maxHeight: fullTable ? 240 : 180, overflowY: 'hidden' }}>
          <MaterialTable
            options={{
              search: false,
@@ -128,7 +128,7 @@ const UserInfoTable = ({
                position: 'sticky',
                top: 0,
              },
-             maxBodyHeight: 260,
+             maxBodyHeight: 240,
            }}
            columns={columns}
            data={fullTable ? mockData.rows : mockData.rows.slice(0, 3)}

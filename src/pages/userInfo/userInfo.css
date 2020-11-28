@@ -8,7 +8,7 @@
   padding: 18px 15px;
   transition: .5s;
   background: #fff;
-  max-height: 541px;
+  max-height: 521px;
   height: 100%;
 }
 
@@ -30,7 +30,7 @@
   width: 100%;
   overflow: hidden;
   transition: .5s;
-  max-height: 553px;
+  max-height: 521px;
   height: 100%;
   padding-top: 28px;
 }
