@@ -113,23 +113,14 @@ const Register = () => {
           </div>
           <div className="register__input-box">
             <Input text="Введите номер договора" type="all" name="contract" placeholder="Номер договора" onChange={setData} value={data.contract} />
-            <InputMask
-              mask="99.99.9999"
-              maskChar={null}
-              onChange={setData}
+            <Input
+              type="date"
+              text="Введите дату окончания договора"
+              name="contractDate"
+              placeholder="ХХ.ХХ.ХХХХ"
               value={data.contractDate}
-              beforeMaskedValueChange={(newState, oldState, userInput) => beforeMaskedValueChange(newState, oldState, userInput, data.contractDate)}
-            >
-              {(inputProps) => (
-                <Input
-                  type="tel"
-                  text="Введите дату окончания договора"
-                  {...inputProps}
-                  name="contractDate"
-                  placeholder="ХХ.ХХ.ХХХХ"
-                />
-              )}
-            </InputMask>
+              onChange={setData}
+            />
           </div>
           {promo
             && (

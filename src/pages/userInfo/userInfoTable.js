@@ -52,7 +52,7 @@ const UserInfoTable = ({
       {
         title: 'Время транзакции',
         field: 'transactionTime',
-        render: (rowData) => <div style={{ fontSize: 14, minWidth: 100, textAlign: 'center' }}>{rowData.transactionTime}</div>,
+        render: (rowData) => <div style={{ fontSize: 14, minWidth: 105, textAlign: 'center' }}>{rowData.transactionTime}</div>,
         cellStyle: {
           padding: 8,
         },
@@ -71,7 +71,7 @@ const UserInfoTable = ({
   }
 
   return (
-    <div className="user-info__table" style={{ maxWidth: fullTable ? '100%' : 595, borderColor: fullTable ? 'transparent' : '#B8BCC6', borderRadius: fullTable ? 0 : '16px' }}>
+    <div className="user-info__table" style={{ maxWidth: fullTable ? '95%' : 595, borderColor: fullTable ? 'transparent' : '#B8BCC6' }}>
       {isLoading && 'loading'}
       {activeTable && !isLoading
      && (

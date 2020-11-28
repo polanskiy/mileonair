@@ -8,6 +8,7 @@ const Input = ({
   setIsValid,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [datePlaceholder, setDatePlaceholder] = useState(false);
 
   const handleList = () => {
     setIsOpen(false);
@@ -67,6 +68,26 @@ const Input = ({
   if (valid && !value) {
     selectClassName = 'input select defaultOption input_alert';
   }
+  let newType = type;
+
+  const handleFocus = () => {
+    if (type === 'date') {
+      setDatePlaceholder(true);
+    }
+  };
+
+  const handleBlur = () => {
+    if (type === 'date' && !value) {
+      setDatePlaceholder(false);
+    }
+  };
+
+  if (type === 'all') {
+    newType = 'text';
+  }
+  if (type === 'date') {
+    newType = 'text';
+  }
 
   return (
     <>
@@ -103,9 +124,11 @@ const Input = ({
               disabled={disabled}
               className={valid ? 'input input_alert' : 'input'}
               value={value}
+              onFocus={handleFocus}
               onChange={handleInput}
               placeholder={placeholder}
-              type={type === 'all' ? 'text' : type}
+              type={datePlaceholder ? 'date' : newType}
+              onBlur={handleBlur}
             />
           </label>
         )}

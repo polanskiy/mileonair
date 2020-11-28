@@ -37,14 +37,14 @@ const UserInfo = () => {
       }, 1000);
     }
   };
+
   return (
     <div className="user-info">
       <p className="pageTitle">
         Данные пользователей
       </p>
       <div className="user-info__content">
-        <div style={{ maxWidth: fullTable ? 0 : 355 }} />
-        <div className="user-info__fields">
+        <div className="user-info__fields" style={{ transform: fullTable ? 'translateX(-130%)' : 'translateX(0)' }}>
           <div className="register__input-box">
             <Input width={352} text="Введите фамилию, имя и отчество полностью" name="fio" placeholder="ФИО" onChange={setData} value={data.fio} />
           </div>

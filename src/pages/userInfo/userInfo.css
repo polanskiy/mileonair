@@ -1,11 +1,15 @@
 .user-info__table {
-  position: relative;
+  position: absolute;
+  top: 40px;
+  right: 16px;
   border: 1px solid #B8BCC6;
   border-radius: 15px;
   width: 100%;
   padding: 18px 15px;
   transition: .5s;
- background: #fff;
+  background: #fff;
+  max-height: 541px;
+  height: 100%;
 }
 
 .user-info__table-box {
@@ -14,13 +18,14 @@
 
 .user-info__content {
   flex-direction: row;
+  position: relative;
+  overflow: hidden;
 }
 
 .user-info__fields {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
   max-width: 355px;
   width: 100%;
   overflow: hidden;
