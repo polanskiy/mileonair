@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/mileonair/static/css/main.d6864f9f.chunk.css",
+    "main.js": "/mileonair/static/js/main.38bbe16c.chunk.js",
+    "main.js.map": "/mileonair/static/js/main.38bbe16c.chunk.js.map",
+    "runtime-main.js": "/mileonair/static/js/runtime-main.d8c98d07.js",
+    "runtime-main.js.map": "/mileonair/static/js/runtime-main.d8c98d07.js.map",
+    "static/js/2.52b798c3.chunk.js": "/mileonair/static/js/2.52b798c3.chunk.js",
+    "static/js/2.52b798c3.chunk.js.map": "/mileonair/static/js/2.52b798c3.chunk.js.map",
+    "static/js/3.284654e1.chunk.js": "/mileonair/static/js/3.284654e1.chunk.js",
+    "static/js/3.284654e1.chunk.js.map": "/mileonair/static/js/3.284654e1.chunk.js.map",
+    "static/js/4.61990a68.chunk.js": "/mileonair/static/js/4.61990a68.chunk.js",
+    "static/js/4.61990a68.chunk.js.map": "/mileonair/static/js/4.61990a68.chunk.js.map",
+    "static/js/5.418564e3.chunk.js": "/mileonair/static/js/5.418564e3.chunk.js",
+    "static/js/5.418564e3.chunk.js.map": "/mileonair/static/js/5.418564e3.chunk.js.map",
+    "index.html": "/mileonair/index.html",
+    "static/css/main.d6864f9f.chunk.css.map": "/mileonair/static/css/main.d6864f9f.chunk.css.map",
+    "static/js/2.52b798c3.chunk.js.LICENSE.txt": "/mileonair/static/js/2.52b798c3.chunk.js.LICENSE.txt",
+    "static/js/3.284654e1.chunk.js.LICENSE.txt": "/mileonair/static/js/3.284654e1.chunk.js.LICENSE.txt",
+    "static/js/4.61990a68.chunk.js.LICENSE.txt": "/mileonair/static/js/4.61990a68.chunk.js.LICENSE.txt",
+    "static/js/5.418564e3.chunk.js.LICENSE.txt": "/mileonair/static/js/5.418564e3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mileonair/static/media/Roboto-Regular.03523cf5.ttf",
+    "static/media/input.css": "/mileonair/static/media/alert.c26d5286.svg",
+    "static/media/close.fe1ef78e.svg": "/mileonair/static/media/close.fe1ef78e.svg",
+    "static/media/expand.329d791a.svg": "/mileonair/static/media/expand.329d791a.svg",
+    "static/media/logo.a4fcba26.svg": "/mileonair/static/media/logo.a4fcba26.svg",
+    "static/media/profile.9fa6ea15.png": "/mileonair/static/media/profile.9fa6ea15.png",
+    "static/media/register.27e208eb.svg": "/mileonair/static/media/register.27e208eb.svg",
+    "static/media/right.abafb2be.svg": "/mileonair/static/media/right.abafb2be.svg",
+    "static/media/userInfo.e96ccb16.svg": "/mileonair/static/media/userInfo.e96ccb16.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8c98d07.js",
+    "static/js/3.284654e1.chunk.js",
+    "static/css/main.d6864f9f.chunk.css",
+    "static/js/main.38bbe16c.chunk.js"
+  ]
+}
